@@ -10,6 +10,7 @@ public class singleElement {
     }
     
     public static int getSingleElement(int arr[], int n) {
+        
         for (int i = 0; i < n; i++) {
             int num = arr[i];
             int cnt = 0;
