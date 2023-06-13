@@ -1,4 +1,4 @@
-package striver.striver;
+package project190;
 
 import java.util.Arrays;
 
