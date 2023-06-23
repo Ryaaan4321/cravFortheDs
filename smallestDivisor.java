@@ -1,4 +1,5 @@
 package striver.binarysearch;
+https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 
 import java.util.Arrays;
 
