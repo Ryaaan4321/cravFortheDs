@@ -15,6 +15,17 @@ public class kthMisssing {
             }
         }
         return low + k;
+        // take that case in your mind tht this will give us the the ans(or tht missing number)..!
+
+        // ans = arr[high] + more;
+        // more = k - missing
+        // missing = arr[high] - (high + 1);
+        // ans = arr[high] + k - missing
+        // ans = arr[high] + k - arr[high] + high + 1' 
+        // ans = high + k + 1;
+        // if u can see low comes to in the opposite polarity of the high 
+        // and which can be wriiten as low = high + 1;
+        // ans = low in place of(high + 1) + k;
     
 
         
