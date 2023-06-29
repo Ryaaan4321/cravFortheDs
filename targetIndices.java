@@ -46,6 +46,10 @@ public class targetIndices {
             res.add(left);
             left++;
           } 
+       // here we cant apply tht typical binary search if we do so tht will end up giving the solution thth will not work in all the test cases 
+       // so for tht we applied binary search for two  times once for the left side tht will search for the 
+       // target element in the left side and again for the right side and this will find the target element in the right side
+       // and tht function will  give us the solution tht can be applied on all the test cases..
 
         return res;
     }
