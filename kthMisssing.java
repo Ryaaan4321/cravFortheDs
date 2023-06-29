@@ -7,7 +7,8 @@ public class kthMisssing {
         int high = n - 1;
         while (low <= high) {
             int mid = (low + high) / 2;
-            int missing = nums[mid] - (mid + 1);
+            int missing = nums[mid] - (mid + 1); // in case of 0 bassed indexing ;
+          //  int missing = nums[mid] - (mid) ;    // in cases of 1 bassed indexing;
             if (missing < k) {
                 low = mid + 1;
             } else {
